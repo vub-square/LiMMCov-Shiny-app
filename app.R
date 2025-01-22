@@ -69,8 +69,9 @@ ui <- fluidPage(
   navbarPage(
     id = "navbar",
     # Application title
-    tags$p(strong("LiMMCov"), style = "color:#003399"),
-
+    title = "LiMMCov",
+    theme = shinytheme("flatly"),
+    
     # Main tabs for the web application
     ###################################
     # Home Tab
@@ -103,7 +104,7 @@ ui <- fluidPage(
           # tags$h4("Note: This is not the final version of the app. It is still under development!", style = "color:#FF0000"),
           br(), br(),
           
-          # tags$h6(em("Copyright 2024, Support for Quantitative and Qualitative Research, Version 01.06.24"), align = "center"),
+          # tags$h6(em("Copyright 2024, Support for Quantitative and Qualitative Research, Version 20.01.25"), align = "center"),
           # br(),
           
        
